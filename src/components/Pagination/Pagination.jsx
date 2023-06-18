@@ -2,6 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 
+/**
+ * Creates a pagination component based on the current page, total number of pages,
+ * and onPageChange function.
+ *
+ * @param {number} currentPage - The current active page number.
+ * @param {number} totalPages - The total number of pages.
+ * @param {function} onPageChange - A function to be called when the active page changes.
+ * @return {JSX.Element} A React component representing the pagination.
+ */
 function Pagination({ currentPage, totalPages, onPageChange }) {
   const pageNumbers = [];
 

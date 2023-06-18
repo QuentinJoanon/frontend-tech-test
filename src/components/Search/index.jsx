@@ -6,6 +6,15 @@ import { TextField, Theme } from '@lumx/react';
 import { mdiMagnify } from '@lumx/icons';
 import { useHistory } from 'react-router-dom';
 
+/**
+ * Renders a search input field that queries the Marvel API for characters based on user input.
+ *
+ * @param {Object} props - The props object containing:
+ *   {string} search - The current value of the search input field.
+ *   {function} setSearch - A function to update the value of the search input field.
+ *   {function} setCharacters - A function to update the list of characters returned by the API.
+ * @return {JSX.Element} A form containing a search input field.
+ */
 const Search = ({
   search, setSearch, setCharacters,
 }) => {
