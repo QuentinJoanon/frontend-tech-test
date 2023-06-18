@@ -1,3 +1,10 @@
 .header {
     background-color: lumx-color-variant('primary', 'N');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
 }

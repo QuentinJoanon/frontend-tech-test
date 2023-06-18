@@ -1,3 +1,23 @@
-.header {
-    background-color: lumx-color-variant('primary', 'N');
+.card-result {
+    display: flex;
+    height: 300px;
+    width: 80%;
+    border: solid 5px #245BE7;
+    border-radius: 10px;
+    margin: 2em;
+    padding: 1em;
+}
+.picture {
+    height: 100%;
+    padding-right: 1em
+}
+
+.card-stat {
+    display: flex;
+    font-weight: bold;
+}
+
+.card__info__item {
+    margin-top: 1em;
+    margin-right: 2em
 }
